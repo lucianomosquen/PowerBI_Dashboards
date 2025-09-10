@@ -1,53 +1,66 @@
-# 📊 Dashboard de Ventas – Práctica en Power BI
+# 📊 Dashboards en Power BI – Práctica  
 
-![Power BI](https://img.shields.io/badge/PowerBI-Dashboard-yellow) ![Status](https://img.shields.io/badge/Status-Completed-brightgreen) ![License](https://img.shields.io/badge/License-MIT-lightgrey)
+![Power BI](https://img.shields.io/badge/PowerBI-Dashboard-yellow) ![Status](https://img.shields.io/badge/Status-Completed-brightgreen) ![License](https://img.shields.io/badge/License-MIT-lightgrey)  
 
 👋 Hola, soy **Luciano Mosquén**  
 Senior Data Analyst con más de 13 años de experiencia en **Power BI, SQL, Python y automatización de reportes**.  
 
-Este proyecto es un **ejemplo práctico en Power BI** utilizando un dataset simulado de ventas.  
-El objetivo es mostrar cómo estructurar un dashboard claro y profesional, con métricas clave, segmentadores y visualizaciones relevantes para el análisis de negocio.
+Este repositorio reúne **ejemplos prácticos de dashboards en Power BI**, desarrollados con datasets simulados y de práctica.  
+El objetivo es mostrar cómo estructurar reportes claros y profesionales, con métricas clave, segmentadores y visualizaciones relevantes para el análisis de negocio.  
 
 ---
 
 ## 📂 Estructura del repositorio
 
 ```text
-PowerBI_Sales_Dashboard/
+PowerBI_Dashboards/
 │
 ├─ Dashboards/
-│  └─ Dashboard_Ventas.pbix    # Archivo del dashboard en Power BI
+│  ├─ Ventas1.pbix          # Dashboard de Ventas (dataset simulado)
+│  └─ Clientes1.pbix        # Dashboard de Clientes (Wide World Importers)
 │
 ├─ Images/
-│  └─ dashboard_preview.png    # Imagen de vista previa del dashboard
+│  ├─ Ventas1.jpg           # Preview dashboard Ventas
+│  └─ Clientes1.jpg         # Preview dashboard Clientes
 │
-└─ README.md                   # Documentación del proyecto
+└─ README.md                # Documentación del proyecto
 
 ```
+## 📸 Vistas previas
 
----
+### Dashboard de Ventas – Dataset simulado  
+![Dashboard Ventas](Images/Ventas1.jpg)
 
-## 📸 Vista previa
-
-![Dashboard Preview](Images/Ventas1.jpg)
+### Dashboard de Clientes – Wide World Importers  
+![Dashboard Clientes](Images/Clientes1.jpg)
 
 ---
 
 ## 🔑 Métricas principales
 
-- **💰 Ventas Totales** → SUM(Total Venta)  
-- **📦 Unidades Vendidas** → SUM(Cantidad)  
-- **📊 Precio Promedio** → AVERAGE(Precio Unitario)  
-- **🧾 Ticket Promedio** → Ventas Totales / Nº de Transacciones  
+**Ventas (dataset simulado):**
+- 💰 Ventas Totales  
+- 📦 Unidades Vendidas  
+- 📊 Precio Promedio  
+- 🧾 Ticket Promedio  
+
+**Clientes (Wide World Importers):**
+- 👥 Clientes Totales  
+- 💰 Ventas Totales  
+- 🛒 Pedidos  
+- 📈 Margen (%)  
+- 🏆 Top 10 Clientes por ventas  
+- 📉 Evolución de Ventas y Profit por mes/año  
 
 ---
 
 ## 📈 Visualizaciones incluidas
 
 - **Tarjetas (KPIs):** métricas principales del negocio.  
-- **Gráfico de líneas:** evolución de ventas totales por mes.  
-- **Gráfico de barras horizontales:** ventas totales por producto.  
-- **Segmentadores:** por producto y por fecha (Año/Mes).  
+- **Gráfico de líneas/columnas combinadas:** evolución temporal de ventas y profit.  
+- **Gráfico de barras:** ventas totales por producto / top clientes.  
+- **Segmentadores:** producto, fecha (año/mes), filtro por año (localizado).  
+- **Subtítulos explicativos y branding personal.**  
 
 ---
 
