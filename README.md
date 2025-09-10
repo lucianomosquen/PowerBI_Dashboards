@@ -1,42 +1,65 @@
-# Power BI Dashboards
+# 📊 Dashboard de Ventas – Práctica en Power BI
 
-![Power BI](https://img.shields.io/badge/PowerBI-Dashboards-yellow) ![Status](https://img.shields.io/badge/Status-Portfolio-green) ![License](https://img.shields.io/badge/License-MIT-lightgrey)
+![Power BI](https://img.shields.io/badge/PowerBI-Dashboard-yellow) ![Status](https://img.shields.io/badge/Status-Completed-brightgreen) ![License](https://img.shields.io/badge/License-MIT-lightgrey)
 
 👋 Hola, soy **Luciano Mosquén**  
-Senior Data Analyst con más de 13 años de experiencia en BI, SQL, Python y visualizaciones de datos.  
-Este repositorio reúne ejemplos de dashboards desarrollados en **Power BI**, aplicados a distintos casos de negocio.
+Senior Data Analyst con más de 13 años de experiencia en **Power BI, SQL, Python y automatización de reportes**.  
+
+Este proyecto es un **ejemplo práctico en Power BI** utilizando un dataset simulado de ventas.  
+El objetivo es mostrar cómo estructurar un dashboard claro y profesional, con métricas clave, segmentadores y visualizaciones relevantes para el análisis de negocio.
 
 ---
 
-## 📂 Contenido del repositorio
+## 📂 Estructura del repositorio
 
-### Dashboards incluidos
-- **Ventas Dashboard** → análisis de ventas por región, producto y período.  
-- **KPIs Dashboard** → métricas de performance, órdenes abiertas, tiempos de entrega.  
-*(iré sumando más dashboards a medida que avance con nuevos casos de uso)*
+PowerBI_Sales_Dashboard/
+│
+├── Dashboards/
+│ └── Dashboard_Ventas.pbix # Archivo del dashboard en Power BI
+│
+├── Images/
+│ └── dashboard_preview.png # Imagen de vista previa del dashboard
+│
+└── README.md # Documentación del proyecto
 
----
-
-## 📸 Preview
-
-<img src="Images/ventas_dashboard.png" alt="Dashboard de ventas" width="600"/>  
-
-<img src="Images/kpis_dashboard.png" alt="Dashboard de KPIs" width="600"/>  
 
 ---
 
-## 🚀 Roadmap
-- [x] Ventas Dashboard  
-- [x] KPIs Dashboard  
-- [ ] Finanzas Dashboard  
-- [ ] Operaciones Dashboard  
+## 📸 Vista previa
+
+![Dashboard Preview](Images/dashboard_preview.png)
+
+---
+
+## 🔑 Métricas principales
+
+- **💰 Ventas Totales** → SUM(Total Venta)  
+- **📦 Unidades Vendidas** → SUM(Cantidad)  
+- **📊 Precio Promedio** → AVERAGE(Precio Unitario)  
+- **🧾 Ticket Promedio** → Ventas Totales / Nº de Transacciones  
+
+---
+
+## 📈 Visualizaciones incluidas
+
+- **Tarjetas (KPIs):** métricas principales del negocio.  
+- **Gráfico de líneas:** evolución de ventas totales por mes.  
+- **Gráfico de barras horizontales:** ventas totales por producto.  
+- **Segmentadores:** por producto y por fecha (Año/Mes).  
+
+---
+
+## 🎯 Objetivo
+
+- Practicar el diseño de dashboards con un enfoque profesional.  
+- Mostrar buenas prácticas de visualización: consistencia de colores, tipografía clara y uso de íconos.  
+- Incorporar branding personal (foto y nombre) como muestra de portafolio.  
 
 ---
 
 ## 📬 Contacto
 
 - LinkedIn: [www.linkedin.com/in/lucianomosquen](https://www.linkedin.com/in/lucianomosquen)  
-- GitHub: [github.com/lucianomosquen](https://github.com/lucianomosquen)  
 - Email: luciano.mosquen@gmail.com  
 
-Este repositorio forma parte de mi **portafolio profesional**, enfocado en transformar datos en visualizaciones interactivas para la toma de decisiones.
+Este repositorio forma parte de mi **portafolio profesional en análisis de datos y visualización con Power BI**.
