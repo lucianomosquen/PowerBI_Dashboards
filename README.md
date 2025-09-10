@@ -27,7 +27,7 @@ PowerBI_Sales_Dashboard/
 
 ## 📸 Vista previa
 
-![Dashboard Preview](Images/ventas1.jpg)
+![Dashboard Preview](Images/Ventas1.jpg)
 
 ---
 
