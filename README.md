@@ -12,7 +12,7 @@ El objetivo es mostrar cómo estructurar un dashboard claro y profesional, con m
 
 ## 📂 Estructura del repositorio
 ---
-PowerBI_Sales_Dashboard/
+## PowerBI_Sales_Dashboard/
 │
 ├── Dashboards/
 │ └── Dashboard_Ventas.pbix # Archivo del dashboard en Power BI
