@@ -11,7 +11,7 @@ El objetivo es mostrar cómo estructurar un dashboard claro y profesional, con m
 ---
 
 ## 📂 Estructura del repositorio
-
+---
 PowerBI_Sales_Dashboard/
 │
 ├── Dashboards/
@@ -27,7 +27,7 @@ PowerBI_Sales_Dashboard/
 
 ## 📸 Vista previa
 
-![Dashboard Preview](Images/dashboard_preview.png)
+![Dashboard Preview](Images/ventas1.jpg)
 
 ---
 
